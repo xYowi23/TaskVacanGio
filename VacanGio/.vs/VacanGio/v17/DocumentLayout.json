@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\recenssione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\recenssione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\destinazione_pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\destinazione_pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\destinazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\destinazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\recenssionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\recenssionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\context\\vacangiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\context\\vacangiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\recensionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\recensionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\pacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\pacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\ireposcrittura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\ireposcrittura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\controllers\\destinazionecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\controllers\\destinazionecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\services\\destinazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\services\\destinazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\services\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\services\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 376,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pacchetto.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Pacchetto.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Models\\Pacchetto.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Pacchetto.cs",
+              "RelativeToolTip": "VacanGio\\Models\\Pacchetto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:01:54.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Destinazione.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Destinazione.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Models\\Destinazione.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Destinazione.cs",
+              "RelativeToolTip": "VacanGio\\Models\\Destinazione.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:55:49.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Destinazione_Pacchetto.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Destinazione_Pacchetto.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Models\\Destinazione_Pacchetto.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Destinazione_Pacchetto.cs",
+              "RelativeToolTip": "VacanGio\\Models\\Destinazione_Pacchetto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:03:25.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecensioneRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\RecensioneRepo.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Repositories\\RecensioneRepo.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\RecensioneRepo.cs",
+              "RelativeToolTip": "VacanGio\\Repositories\\RecensioneRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:23:55.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VacanGioContext.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Context\\VacanGioContext.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Context\\VacanGioContext.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Context\\VacanGioContext.cs",
+              "RelativeToolTip": "VacanGio\\Context\\VacanGioContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:58:18.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecenssioneDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\RecenssioneDTO.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Models\\RecenssioneDTO.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\RecenssioneDTO.cs",
+              "RelativeToolTip": "VacanGio\\Models\\RecenssioneDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:47:16.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recenssione.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Recenssione.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Models\\Recenssione.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Recenssione.cs",
+              "RelativeToolTip": "VacanGio\\Models\\Recenssione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:52:16.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PacchettoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\PacchettoRepo.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Repositories\\PacchettoRepo.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\PacchettoRepo.cs",
+              "RelativeToolTip": "VacanGio\\Repositories\\PacchettoRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:23:02.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\appsettings.json",
+              "RelativeDocumentMoniker": "VacanGio\\appsettings.json",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\appsettings.json",
+              "RelativeToolTip": "VacanGio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T11:04:14.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepoLettura.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\IRepoLettura.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Repositories\\IRepoLettura.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\IRepoLettura.cs",
+              "RelativeToolTip": "VacanGio\\Repositories\\IRepoLettura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:14:59.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRepoScrittura.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\IRepoScrittura.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Repositories\\IRepoScrittura.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\IRepoScrittura.cs",
+              "RelativeToolTip": "VacanGio\\Repositories\\IRepoScrittura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:21:53.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Program.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Program.cs",
+              "RelativeToolTip": "VacanGio\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:06:42.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DestinazioneController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Controllers\\DestinazioneController.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Controllers\\DestinazioneController.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Controllers\\DestinazioneController.cs",
+              "RelativeToolTip": "VacanGio\\Controllers\\DestinazioneController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:59:34.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IServices.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\IServices.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Services\\IServices.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\IServices.cs",
+              "RelativeToolTip": "VacanGio\\Services\\IServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:39:37.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DestinazioneService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\DestinazioneService.cs",
+              "RelativeDocumentMoniker": "VacanGio\\Services\\DestinazioneService.cs",
+              "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\DestinazioneService.cs",
+              "RelativeToolTip": "VacanGio\\Services\\DestinazioneService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:42:53.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
