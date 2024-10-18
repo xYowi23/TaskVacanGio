@@ -140,3 +140,4 @@ C:\Users\Utente\source\Task_VacanGio\VacanGio\VacanGio\obj\Debug\net8.0\refint\V
 C:\Users\Utente\source\Task_VacanGio\VacanGio\VacanGio\obj\Debug\net8.0\VacanGio.pdb
 C:\Users\Utente\source\Task_VacanGio\VacanGio\VacanGio\obj\Debug\net8.0\VacanGio.genruntimeconfig.cache
 C:\Users\Utente\source\Task_VacanGio\VacanGio\VacanGio\obj\Debug\net8.0\ref\VacanGio.dll
+C:\Users\Utente\source\Task_VacanGio\VacanGio\VacanGio\obj\Debug\net8.0\VacanGio.sourcelink.json

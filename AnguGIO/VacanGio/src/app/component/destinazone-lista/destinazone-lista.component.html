@@ -1,0 +1,22 @@
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Descrizione</th>
+            <th>Paese</th>
+            <th>Immagine</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr *ngFor="let desti of elencoDestinazioni">
+            <td>{{desti.nom }}</td>
+            <td>{{desti.desc }}</td>
+            <td>{{desti.pae }}</td>
+            <td>{{desti.imgU }}</td>
+           
+        </tr>
+    </tbody>
+</table>
