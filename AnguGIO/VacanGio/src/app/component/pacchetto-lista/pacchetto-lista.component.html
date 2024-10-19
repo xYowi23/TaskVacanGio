@@ -1,0 +1,29 @@
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Prezzo</th>
+                <th>Durata</th>
+                <th>Data Inizio</th>
+                <th>Data Fine</th>
+                <th>Destinazione</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr *ngFor="let pach of elencoPacchetti">
+                <td>{{pach.nom }}</td>
+                <td>{{pach.pre }}</td>
+                <td>{{pach.dur }}</td>
+                <td>{{pach.dataIn}}</td>
+                <td>{{pach.dataFi}}</td>
+                <ul *ngFor="let destinazione of pach.destinazioni">
+                    <li> {{destinazione}}</li>
+                 </ul>
+               
+            </tr>
+        </tbody>
+    </table>
+</div>

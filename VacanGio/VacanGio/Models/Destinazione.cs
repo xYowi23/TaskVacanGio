@@ -15,10 +15,10 @@ namespace VacanGio.Models
         
         public string Paese { get; set; }=null!;
 
-        public string ImgUrl { get; set; } =null!;
+        public string? ImgUrl { get; set; }
 
 
-        public ICollection<Destinazione_Pacchetto>? DesPac { get; set; }
+        public ICollection<Destinazione_Pacchetto> DesPac { get; set; } = new List<Destinazione_Pacchetto>();
 
     }
 

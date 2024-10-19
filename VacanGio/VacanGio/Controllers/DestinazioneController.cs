@@ -22,5 +22,16 @@ namespace VacanGio.Controllers
         {
             return Ok(_service.CercaTutti());
         }
+        [HttpPost]
+
+        public IActionResult? InserisciDestinazione(DestinazioneDTO destDTO)
+        {
+            if (string.IsNullOrWhiteSpace(destDTO.Nom) || string.IsNullOrWhiteSpace(destDTO.Pae))
+                return BadRequest();
+            if (_service.Inserisci(destDTO))
+                return Ok();
+            return BadRequest();
+        }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using VacanGio.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using VacanGio.Context;
 using VacanGio.Models;
 
 namespace VacanGio.Repositories
@@ -24,7 +25,10 @@ namespace VacanGio.Repositories
 
         public IEnumerable<Pacchetto> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Pacchettos.Include(p=>p.DesPac)
+                    .ThenInclude(dp=>dp.Dest)
+                
+                 .ToList();
         }
 
         public Pacchetto? GetById(int id)

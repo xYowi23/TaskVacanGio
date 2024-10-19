@@ -1,22 +1,29 @@
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Descrizione</th>
-            <th>Paese</th>
-            <th>Immagine</th>
+<div class="table-responsive">
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrizione</th>
+                <th>Paese</th>
+                <th>Immagine</th>
+                <th>Paccheti</th>
+                
+            </tr>
+        </thead>
+        <tbody>
             
-        </tr>
-    </thead>
-    <tbody>
-        
-        <tr *ngFor="let desti of elencoDestinazioni">
-            <td>{{desti.nom }}</td>
-            <td>{{desti.desc }}</td>
-            <td>{{desti.pae }}</td>
-            <td>{{desti.imgU }}</td>
-           
-        </tr>
-    </tbody>
-</table>
+            <tr *ngFor="let desti of elencoDestinazioni">
+                <td>{{desti.nom }}</td>
+                <td>{{desti.desc }}</td>
+                <td>{{desti.pae }}</td>
+                <td> <img src="{{desti.imgU}}" alt=""></td>
+
+                <ul *ngFor="let pacchetto of desti.pacchetti">
+                   <li> {{pacchetto}}</li>
+                </ul>
+            
+               
+            </tr>
+        </tbody>
+    </table>
+</div>

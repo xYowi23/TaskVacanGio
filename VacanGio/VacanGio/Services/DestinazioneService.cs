@@ -1,4 +1,5 @@
-﻿using VacanGio.Models;
+﻿using System.Collections;
+using VacanGio.Models;
 using VacanGio.Repositories;
 
 namespace VacanGio.Services
@@ -26,9 +27,19 @@ namespace VacanGio.Services
         {
             ICollection<DestinazioneDTO> risultato = new List<DestinazioneDTO>();
 
-            IEnumerable<Destinazione> elencodestinazioni = _repo.GetAll();
-            foreach (Destinazione destinazione in elencodestinazioni)
+            IEnumerable<Destinazione> elencoDestinazioni = _repo.GetAll();
+            foreach (Destinazione destinazione in elencoDestinazioni)
             {
+                List<string> nomiPacchettti = new List<string>();
+                if (destinazione.DesPac is not null)
+                    foreach (Destinazione_Pacchetto descPachetto in destinazione.DesPac)
+                    {
+                        if (descPachetto.Pach is not null)
+                            nomiPacchettti.Add(descPachetto.Pach.Nome);
+
+
+                    }
+
                 DestinazioneDTO temp = new DestinazioneDTO()
                 {
                     CodDest = destinazione.CodDestinazione,
@@ -36,6 +47,9 @@ namespace VacanGio.Services
                     Desc = destinazione.Descrizione,
                     Pae = destinazione.Paese,
                     ImgU = destinazione.ImgUrl,
+                    Pacchetti = nomiPacchettti,
+                    
+              
                 };
 
                 risultato.Add(temp);
@@ -51,7 +65,19 @@ namespace VacanGio.Services
 
         public bool Inserisci(DestinazioneDTO entity)
         {
-            throw new NotImplementedException();
+           if(entity.Nom is null || entity.Pae is null)
+                return false;
+            Destinazione dest = new Destinazione()
+            {
+                CodDestinazione = entity.CodDest is not null ? entity.CodDest : Guid.NewGuid().ToString().ToUpper(),
+                Nome=entity.Nom,
+                Descrizione=entity.Desc,
+                Paese=entity.Pae,
+                ImgUrl=entity.ImgU,
+
+            };
+            return _repo.Create(dest);
+              
         }
     }
 }

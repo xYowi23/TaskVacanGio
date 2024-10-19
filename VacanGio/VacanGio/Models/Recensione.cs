@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace VacanGio.Models
 {
     
-    public class Recenssione
+    public class Recensione
     {
         [Key]
         public int IdRecensione { get; set; }

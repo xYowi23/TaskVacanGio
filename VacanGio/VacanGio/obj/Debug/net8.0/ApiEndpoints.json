@@ -18,5 +18,41 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "VacanGio.Controllers.DestinazioneController",
+    "Method": "InserisciDestinazione",
+    "RelativePath": "api/destinazioni",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "destDTO",
+        "Type": "VacanGio.Models.DestinazioneDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VacanGio.Controllers.PacchettoController",
+    "Method": "ListaPaccheti",
+    "RelativePath": "api/pacchetti",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VacanGio.Models.PacchettoDTO, VacanGio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

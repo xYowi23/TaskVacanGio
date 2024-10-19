@@ -3,7 +3,7 @@
 namespace VacanGio.Models
 {
     
-    public class RecenssioneDTO
+    public class RecensioneDTO
     {
         public string CodRec { get; set; } = null!;
 

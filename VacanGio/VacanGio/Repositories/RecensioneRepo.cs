@@ -3,7 +3,7 @@ using VacanGio.Models;
 
 namespace VacanGio.Repositories
 {
-    public class RecensioneRepo : IRepoLettura<Recenssione>, IRepoScrittura<Recenssione>
+    public class RecensioneRepo : IRepoLettura<Recensione>, IRepoScrittura<Recensione>
     {
         private VacanGioContext _context;
 
@@ -12,7 +12,7 @@ namespace VacanGio.Repositories
             _context = context;
         }
 
-        public bool Create(Recenssione entity)
+        public bool Create(Recensione entity)
         {
             throw new NotImplementedException();
         }
@@ -22,17 +22,17 @@ namespace VacanGio.Repositories
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Recenssione> GetAll()
+        public IEnumerable<Recensione> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Recenssione? GetById(int id)
+        public Recensione? GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public bool Update(Recenssione entity)
+        public bool Update(Recensione entity)
         {
             throw new NotImplementedException();
         }

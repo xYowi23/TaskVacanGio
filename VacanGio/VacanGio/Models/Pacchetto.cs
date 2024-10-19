@@ -8,7 +8,7 @@ namespace VacanGio.Models
     {
         [Key]
         public int IdPacchetto { get; set; }
-        public string CodPaccheto { get; set; } = null!;
+        public string CodPacchetto { get; set; } = null!;
         public string Nome { get; set; } = null!;
 
         public decimal Prezzo { get; set; }
@@ -19,7 +19,7 @@ namespace VacanGio.Models
         public DateOnly? DataFine { get; set; }
 
 
-        public ICollection<Destinazione_Pacchetto>? DesPac { get; set; }
+        public ICollection<Destinazione_Pacchetto> DesPac { get; set; }= new LinkedList<Destinazione_Pacchetto>();
     }
 
     /*idPacchetto INT PRIMARY KEY IDENTITY(1,1),

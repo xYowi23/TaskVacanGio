@@ -16,9 +16,10 @@ namespace VacanGio.Models
 
         public string? ImgU { get; set; } 
 
-
+        public List<string>? Pacchetti { get; set; }
 
     }
+
 
     /*idDestinazione INT PRIMARY KEY IDENTITY (1,1),
 	codDestinazione VARCHAR(25) UNIQUE NOT NULL,
