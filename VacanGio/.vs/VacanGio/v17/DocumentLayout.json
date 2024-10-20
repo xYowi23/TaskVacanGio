@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\pacchettodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\pacchettodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\context\\vacangiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\context\\vacangiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\destinazionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\destinazionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\services\\pacchettoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\services\\pacchettoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\ireposcrittura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\ireposcrittura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\destinazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\destinazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\services\\destinazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\services\\destinazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\destinazionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\destinazionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\destinazione_pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +35,24 @@
       "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\controllers\\destinazionecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\services\\pacchettoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\services\\pacchettoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\pacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\services\\destinazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\services\\destinazioneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\pacchettodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\pacchettodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\destinazionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\destinazionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\destinazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\destinazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\pacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\pacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\ireposcrittura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\ireposcrittura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\recensione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\repositories\\destinazionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\repositories\\destinazionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\models\\recensionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\models\\recensionedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\context\\vacangiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|solutionrelative:vacangio\\context\\vacangiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DC464F0-DC15-4E64-BE28-59E60DD95CF7}|VacanGio\\VacanGio.csproj|c:\\users\\utente\\source\\task_vacangio\\vacangio\\vacangio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,17 +86,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 393,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "PacchettoService.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\PacchettoService.cs",
               "RelativeDocumentMoniker": "VacanGio\\Services\\PacchettoService.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\PacchettoService.cs",
               "RelativeToolTip": "VacanGio\\Services\\PacchettoService.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAcwHEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwHEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T10:24:30.184Z",
               "IsPinned": true,
@@ -108,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Destinazione.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Destinazione.cs",
               "RelativeDocumentMoniker": "VacanGio\\Models\\Destinazione.cs",
@@ -116,12 +116,11 @@
               "RelativeToolTip": "VacanGio\\Models\\Destinazione.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T22:15:30.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T22:15:30.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Destinazione_Pacchetto.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Destinazione_Pacchetto.cs",
               "RelativeDocumentMoniker": "VacanGio\\Models\\Destinazione_Pacchetto.cs",
@@ -134,20 +133,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "PacchettoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\PacchettoDTO.cs",
               "RelativeDocumentMoniker": "VacanGio\\Models\\PacchettoDTO.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\PacchettoDTO.cs",
               "RelativeToolTip": "VacanGio\\Models\\PacchettoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T15:17:26.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "DestinazioneDTO.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\DestinazioneDTO.cs",
               "RelativeDocumentMoniker": "VacanGio\\Models\\DestinazioneDTO.cs",
@@ -155,12 +154,11 @@
               "RelativeToolTip": "VacanGio\\Models\\DestinazioneDTO.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAnwAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:54:11.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T13:54:11.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PacchettoRepo.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\PacchettoRepo.cs",
               "RelativeDocumentMoniker": "VacanGio\\Repositories\\PacchettoRepo.cs",
@@ -168,25 +166,24 @@
               "RelativeToolTip": "VacanGio\\Repositories\\PacchettoRepo.cs",
               "ViewState": "AgIAACMAAAAAAAAAAIA3wDoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:23:02.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:23:02.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "IRepoScrittura.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\IRepoScrittura.cs",
               "RelativeDocumentMoniker": "VacanGio\\Repositories\\IRepoScrittura.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\IRepoScrittura.cs",
               "RelativeToolTip": "VacanGio\\Repositories\\IRepoScrittura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T12:21:53.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IServices.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\IServices.cs",
               "RelativeDocumentMoniker": "VacanGio\\Services\\IServices.cs",
@@ -194,8 +191,7 @@
               "RelativeToolTip": "VacanGio\\Services\\IServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:39:37.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:39:37.918Z"
             },
             {
               "$type": "Document",
@@ -211,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IRepoLettura.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\IRepoLettura.cs",
               "RelativeDocumentMoniker": "VacanGio\\Repositories\\IRepoLettura.cs",
@@ -219,12 +215,11 @@
               "RelativeToolTip": "VacanGio\\Repositories\\IRepoLettura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:14:59.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:14:59.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Pacchetto.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Pacchetto.cs",
               "RelativeDocumentMoniker": "VacanGio\\Models\\Pacchetto.cs",
@@ -237,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Recensione.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\Recensione.cs",
               "RelativeDocumentMoniker": "VacanGio\\Models\\Recensione.cs",
@@ -245,8 +240,7 @@
               "RelativeToolTip": "VacanGio\\Models\\Recensione.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:52:16.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T10:52:16.426Z"
             },
             {
               "$type": "Document",
@@ -262,20 +256,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PacchettoController.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Controllers\\PacchettoController.cs",
               "RelativeDocumentMoniker": "VacanGio\\Controllers\\PacchettoController.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Controllers\\PacchettoController.cs",
               "RelativeToolTip": "VacanGio\\Controllers\\PacchettoController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T10:22:12.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "RecensioneDTO.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Models\\RecensioneDTO.cs",
               "RelativeDocumentMoniker": "VacanGio\\Models\\RecensioneDTO.cs",
@@ -283,18 +277,17 @@
               "RelativeToolTip": "VacanGio\\Models\\RecensioneDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:47:16.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T10:47:16.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "VacanGioContext.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Context\\VacanGioContext.cs",
               "RelativeDocumentMoniker": "VacanGio\\Context\\VacanGioContext.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Context\\VacanGioContext.cs",
               "RelativeToolTip": "VacanGio\\Context\\VacanGioContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T10:58:18.704Z",
               "EditorCaption": ""
@@ -303,24 +296,24 @@
         },
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "DestinazioneRepo.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\DestinazioneRepo.cs",
               "RelativeDocumentMoniker": "VacanGio\\Repositories\\DestinazioneRepo.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Repositories\\DestinazioneRepo.cs",
               "RelativeToolTip": "VacanGio\\Repositories\\DestinazioneRepo.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAA0wEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T17:53:20.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DestinazioneController.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Controllers\\DestinazioneController.cs",
               "RelativeDocumentMoniker": "VacanGio\\Controllers\\DestinazioneController.cs",
@@ -333,13 +326,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "DestinazioneService.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\DestinazioneService.cs",
               "RelativeDocumentMoniker": "VacanGio\\Services\\DestinazioneService.cs",
               "ToolTip": "C:\\Users\\Utente\\source\\Task_VacanGio\\VacanGio\\VacanGio\\Services\\DestinazioneService.cs",
               "RelativeToolTip": "VacanGio\\Services\\DestinazioneService.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAswG0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswG0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T12:42:53.638Z",
               "EditorCaption": ""

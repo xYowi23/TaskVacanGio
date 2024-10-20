@@ -18,18 +18,17 @@ namespace VacanGio.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Destinazione_Pacchetto>()
-                .HasKey(dp => dp.DestinazionePacchettoId); // Chiave primaria
+                .HasKey(dp => dp.DestinazionePacchettoId); // chiave primaria
 
             modelBuilder.Entity<Destinazione_Pacchetto>()
                 .HasOne(dp => dp.Dest)
-                .WithMany(d => d.DesPac) // Assicurati che Destinazione abbia una proprietà DesPac di tipo ICollection<Destinazione_Pacchetto>
-                .HasForeignKey(dp => dp.DestinazioneRiff); // Chiave esterna
+                .WithMany(d => d.DesPac) // Destinazione collegamento con  DesPac di tipo ICollection<Destinazione_Pacchetto>
+                .HasForeignKey(dp => dp.DestinazioneRiff); // foreign key 
 
             modelBuilder.Entity<Destinazione_Pacchetto>()
                 .HasOne(dp => dp.Pach)
-                .WithMany(p => p.DesPac) // Assicurati che Pacchetto abbia una proprietà DestinazionePacchetti di tipo ICollection<Destinazione_Pacchetto>
-                .HasForeignKey(dp => dp.PacchettoRiff); // Chiave esterna
-        }
+                .WithMany(p => p.DesPac) //  Pacchetto collegamento con DesPac  di tipo ICollection<Destinazione_Pacchetto>
+                .HasForeignKey(dp => dp.PacchettoRiff); //foreign key
 
-    }
+        }
 }
