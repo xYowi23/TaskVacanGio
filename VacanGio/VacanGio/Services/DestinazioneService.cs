@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.IO;
 using VacanGio.Models;
 using VacanGio.Repositories;
 
@@ -7,9 +8,10 @@ namespace VacanGio.Services
     public class DestinazioneService : IServices<DestinazioneDTO>
     {
         private readonly DestinazioneRepo _repo;
-        public DestinazioneService(DestinazioneRepo repo)
+        private readonly PacchettoRepo _repoPachetto;
+        public DestinazioneService(DestinazioneRepo repo, PacchettoRepo repoPacchetto)
         {
-
+            _repoPachetto = repoPacchetto;
             _repo = repo;
         }
 
@@ -20,7 +22,39 @@ namespace VacanGio.Services
 
         public DestinazioneDTO? CercaPerCodice(string codice)
         {
-            throw new NotImplementedException();
+            DestinazioneDTO? risultato = null;
+
+            Destinazione? desti = _repo.GetByCodice(codice);
+
+
+            if (desti is not null)
+            {
+                List<string> nomiPacchetti = new List<string>();
+                if (desti.DesPac is not null)
+                {
+
+                    foreach (Destinazione_Pacchetto dp in desti.DesPac)
+                    {
+                        if (dp.Pach is not null)
+                        {
+                            nomiPacchetti.Add(dp.Pach.Nome);
+                        }
+                    }
+                }
+                risultato = new DestinazioneDTO()
+                {
+                    CodDest = desti.CodDestinazione,
+                    Nom = desti.Nome,
+                    Desc = desti.Descrizione,
+                    Pae = desti.Paese,
+                    ImgU = desti.ImgUrl,
+                    Pacchetti = nomiPacchetti
+
+
+                };
+            }
+
+            return risultato;
         }
 
         public IEnumerable<DestinazioneDTO> CercaTutti()
@@ -48,8 +82,8 @@ namespace VacanGio.Services
                     Pae = destinazione.Paese,
                     ImgU = destinazione.ImgUrl,
                     Pacchetti = nomiPacchettti,
-                    
-              
+
+
                 };
 
                 risultato.Add(temp);
@@ -58,6 +92,7 @@ namespace VacanGio.Services
             return risultato;
         }
 
+
         public bool Elimina(string codice)
         {
             throw new NotImplementedException();
@@ -65,17 +100,32 @@ namespace VacanGio.Services
 
         public bool Inserisci(DestinazioneDTO entity)
         {
-           if(entity.Nom is null || entity.Pae is null)
+            
+         List<Destinazione_Pacchetto> listadesinazionepach = new List<Destinazione_Pacchetto>();
+            if (entity.Nom is null || entity.Pae is null)
                 return false;
-            Destinazione dest = new Destinazione()
-            {
-                CodDestinazione = entity.CodDest is not null ? entity.CodDest : Guid.NewGuid().ToString().ToUpper(),
-                Nome=entity.Nom,
-                Descrizione=entity.Desc,
-                Paese=entity.Pae,
-                ImgUrl=entity.ImgU,
+        Destinazione dest = new Destinazione()
+        {
+            CodDestinazione = entity.CodDest is not null ? entity.CodDest : Guid.NewGuid().ToString().ToUpper(),
+            Nome = entity.Nom,
+            Descrizione = entity.Desc,
+            Paese = entity.Pae,
+            ImgUrl = entity.ImgU,
 
-            };
+        };
+            if (entity.Pacchetti is not null && entity.Pacchetti.Count >0)
+            {
+                foreach (string codice in entity.Pacchetti)
+                {
+                    Pacchetto? pacchetto = _repoPachetto.GetByCodr(codice);
+
+                    Destinazione_Pacchetto relaziioneDestPacchetto = new Destinazione_Pacchetto();
+                    relaziioneDestPacchetto.Pach = pacchetto;
+                    relaziioneDestPacchetto.Dest = dest;
+                    listadesinazionepach.Add(relaziioneDestPacchetto);
+                }
+                dest.DesPac = listadesinazionepach;
+            }
             return _repo.Create(dest);
               
         }

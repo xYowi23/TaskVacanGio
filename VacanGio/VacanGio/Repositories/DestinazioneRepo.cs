@@ -1,6 +1,7 @@
 ﻿using VacanGio.Context;
 using VacanGio.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.Intrinsics.Arm;
 
 namespace VacanGio.Repositories
 {
@@ -45,7 +46,16 @@ namespace VacanGio.Repositories
 
         public Destinazione? GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Destinaziones.Find(id);
+        }
+
+        public Destinazione? GetByCodice(string cod)
+        {
+            return _context.Destinaziones
+                .Include(d=>d.DesPac)
+                .ThenInclude(dp=>dp.Pach)
+                .FirstOrDefault(d => d.CodDestinazione == cod);
+                
         }
 
         public bool Update(Destinazione entity)

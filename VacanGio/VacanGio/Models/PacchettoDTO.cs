@@ -6,7 +6,7 @@ namespace VacanGio.Models
     public class PacchettoDTO
     {
 
-        public string CodPac{ get; set; } = null!;
+        public string? CodPac { get; set; }
         public string Nom { get; set; } = null!;
 
         public decimal Pre { get; set; }

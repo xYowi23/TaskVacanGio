@@ -20,5 +20,30 @@ namespace VacanGio.Controllers
         {
             return Ok(_service.CercaTutti());
         }
+
+
+        [HttpGet ("{varCodice}")]
+        public ActionResult<PacchettoDTO> VisualizzaPacchetto(string varCodice)
+        {
+            if (string.IsNullOrWhiteSpace(varCodice))
+                return BadRequest();
+            PacchettoDTO? risultato = _service.CercaPerCodice(varCodice);
+            if (risultato is not null)
+                return Ok(risultato);
+            return NotFound();
+        }
+
+        [HttpPost]
+        public IActionResult IserisciPacchetto(PacchettoDTO pacDto)
+        {
+
+            if (string.IsNullOrWhiteSpace(pacDto.Nom))
+                return BadRequest();
+            if (_service.Inserisci(pacDto))
+                return Ok();
+
+            return BadRequest();
+        }
+
     }
 }

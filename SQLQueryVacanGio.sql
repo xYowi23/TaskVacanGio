@@ -1,6 +1,6 @@
 CREATE TABLE Destinazione (
 	idDestinazione INT PRIMARY KEY IDENTITY (1,1),
-	codDestinazione VARCHAR(25) UNIQUE NOT NULL,
+	codDestinazione VARCHAR(50) UNIQUE NOT NULL,
 	nome VARCHAR ( 250 ) NOT NULL,
 	descrizione TEXT,
 	paese VARCHAR (250),
@@ -10,7 +10,7 @@ CREATE TABLE Destinazione (
 
 CREATE TABLE PacchettoVacanza(
 	idPacchetto INT PRIMARY KEY IDENTITY(1,1),
-	codPacchetto VARCHAR (25) NOT NULL,
+	codPacchetto VARCHAR (50) NOT NULL,
 	nome VARCHAR ( 250 ) NOT NULL,
 	prezzo DECIMAL (8,2) NOT NULL CHECK (prezzo >0),
 	durata INT DEFAULT 0,
@@ -29,7 +29,7 @@ CREATE TABLE Destinazione_Pacchetto(
 ); 
 CREATE TABLE Recensione(
 	idRecensione INT PRIMARY KEY IDENTITY(1,1),
-	codRecensione VARCHAR (25)NOT NULL,
+	codRecensione VARCHAR (50)NOT NULL,
 	nomeUtente VARCHAR (250) NOT NULL,
 	voto INT CHECK (voto BETWEEN 1 AND 5),
 	commento TEXT,
@@ -48,7 +48,7 @@ VALUES
 ('D005', 'New York', 'La città che non dorme mai.', 'USA', 'https://fastly.picsum.photos/id/471/200/300.jpg?hmac=N_ZXTRU2OGQ7b_1b8Pz2X8e6Qyd84Q7xAqJ90bju2WU'),
 ('D006', 'Barcellona', 'Città famosa per la sua arte e architettura di Gaudí.', 'Spagna', 'https://fastly.picsum.photos/id/471/200/300.jpg?hmac=N_ZXTRU2OGQ7b_1b8Pz2X8e6Qyd84Q7xAqJ90bju2WU'),
 ('D007', 'Dubai', 'Città moderna nel deserto con grattacieli iconici.', 'EAU', 'https://fastly.picsum.photos/id/471/200/300.jpg?hmac=N_ZXTRU2OGQ7b_1b8Pz2X8e6Qyd84Q7xAqJ90bju2WU'),
-('D008', 'Sydney', 'Famosa per la sua Opera House e le spiagge.', 'Australia', 'https://fastly.picsum.photos/id/471/200/300.jpg?hmac=N_ZXTRU2OGQ7b_1b8Pz2X8e6Qyd84Q7xAqJ90bju2WUg'),
+('D008', 'Sydney', 'Famosa per la sua Opera House e le spiagge.', 'Australia', 'https://fastly.picsum.photos/id/471/200/300.jpg?hmac=N_ZXTRU2OGQ7b_1b8Pz2X8e6Qyd84Q7xAqJ90bju2WU'),
 ('D009', 'Firenze', 'Culla del Rinascimento.', 'Italia', 'https://fastly.picsum.photos/id/471/200/300.jpg?hmac=N_ZXTRU2OGQ7b_1b8Pz2X8e6Qyd84Q7xAqJ90bju2WU'),
 ('D010', 'Amsterdam', 'Famosa per i suoi canali e musei.', 'Paesi Bassi', 'https://fastly.picsum.photos/id/471/200/300.jpg?hmac=N_ZXTRU2OGQ7b_1b8Pz2X8e6Qyd84Q7xAqJ90bju2WU');
 
@@ -174,5 +174,18 @@ INSERT INTO Recensione (codRecensione, nomeUtente, voto, commento, dataRecension
 VALUES 
 ('R017', 'Sofia Greco', 5, 'Roma è fantastica, piena di storia. Un viaggio indimenticabile.', '2024-11-10', 10),
 ('R018', 'Lorenzo Bruni', 4, 'Bellissima esperienza, ma avrei preferito più giorni.', '2024-11-12', 10);
+
+
+SELECT * FROM Destinazione 
+JOIN Destinazione_Pacchetto ON Destinazione.idDestinazione =Destinazione_Pacchetto.destinazioneRiff
+ JOIN PacchettoVacanza ON Destinazione_Pacchetto.pacchettoRiff=PacchettoVacanza.idPacchetto;
+
+
+SELECT * FROM Destinazione;
+SELECT * FROM PacchettoVacanza;
+SELECT * FROM Destinazione_Pacchetto;
+
+
+
 
 

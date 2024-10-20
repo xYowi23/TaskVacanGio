@@ -15,9 +15,19 @@ namespace VacanGio.Repositories
 
         public bool Create(Pacchetto entity)
         {
-            throw new NotImplementedException();
+            bool risultato = false;
+            try
+            {
+                _context.Pacchettos.Add(entity);
+                _context.SaveChanges();
+                risultato = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return risultato;
         }
-
         public bool Delete(int id)
         {
             throw new NotImplementedException();
@@ -40,5 +50,14 @@ namespace VacanGio.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public Pacchetto? GetByCodr(string codice)
+        {
+           return  _context.Pacchettos
+                        .Include(P=>P.DesPac)
+                        .ThenInclude(dp=>dp.Dest)
+                        .FirstOrDefault(d => d.CodPacchetto == codice);
+        }
+
     }
 }

@@ -22,9 +22,23 @@ namespace VacanGio.Controllers
         {
             return Ok(_service.CercaTutti());
         }
+
+        [HttpGet("{varCodice}")]
+        public ActionResult<DestinazioneDTO?> VisualizzaCliente(string varCodice)
+        {
+
+            if (string.IsNullOrWhiteSpace(varCodice))
+                return BadRequest();
+
+            DestinazioneDTO? risultato = _service.CercaPerCodice(varCodice);
+            if (risultato is not null)
+                return Ok(risultato);
+
+            return NotFound();
+        }
         [HttpPost]
 
-        public IActionResult? InserisciDestinazione(DestinazioneDTO destDTO)
+        public IActionResult InserisciDestinazione(DestinazioneDTO destDTO)
         {
             if (string.IsNullOrWhiteSpace(destDTO.Nom) || string.IsNullOrWhiteSpace(destDTO.Pae))
                 return BadRequest();

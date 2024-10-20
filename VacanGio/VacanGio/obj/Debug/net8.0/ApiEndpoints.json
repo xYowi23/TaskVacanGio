@@ -36,6 +36,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VacanGio.Controllers.DestinazioneController",
+    "Method": "VisualizzaCliente",
+    "RelativePath": "api/destinazioni/{varCodice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VacanGio.Models.DestinazioneDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "VacanGio.Controllers.PacchettoController",
     "Method": "ListaPaccheti",
     "RelativePath": "api/pacchetti",
@@ -46,6 +72,48 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[VacanGio.Models.PacchettoDTO, VacanGio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VacanGio.Controllers.PacchettoController",
+    "Method": "IserisciPacchetto",
+    "RelativePath": "api/pacchetti",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacDto",
+        "Type": "VacanGio.Models.PacchettoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VacanGio.Controllers.PacchettoController",
+    "Method": "VisualizzaPacchetto",
+    "RelativePath": "api/pacchetti/{varCodice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VacanGio.Models.PacchettoDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

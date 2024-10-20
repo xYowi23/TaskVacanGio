@@ -6,10 +6,12 @@ namespace VacanGio.Services
     public class PacchettoService : IServices<PacchettoDTO>
     {
         private readonly PacchettoRepo _repo;
-        public PacchettoService(PacchettoRepo repo)
+        private readonly DestinazioneRepo _repoDestinazione;
+        public PacchettoService(PacchettoRepo repo, DestinazioneRepo repoDestinazione)
         {
 
             _repo = repo;
+            _repoDestinazione = repoDestinazione;
         }
 
             
@@ -21,7 +23,41 @@ namespace VacanGio.Services
 
         public PacchettoDTO? CercaPerCodice(string codice)
         {
-            throw new NotImplementedException();
+            PacchettoDTO? risultato = null;
+            Pacchetto? pachet = _repo.GetByCodr(codice);
+
+            if (pachet is not null)
+            {
+
+                List<string> nomeDestinazioni = new List<string>();
+                if (pachet.DesPac is not null)
+                {
+                    foreach (Destinazione_Pacchetto pach in pachet.DesPac)
+                    {
+                        if (pach.Dest is not null)
+                        {
+                            nomeDestinazioni.Add(pach.Dest.Nome);
+                        }
+
+                    }
+                }
+                risultato = new PacchettoDTO()
+                {
+                    CodPac = pachet.CodPacchetto,
+                    Nom = pachet.Nome,
+                    Pre = pachet.Prezzo,
+                    Dur = pachet.Durata,
+                    DataIn = pachet.DataInizio,
+                    DataFi = pachet.DataFine,
+                    Destinazioni = nomeDestinazioni,
+
+
+                };
+
+
+            }
+
+            return risultato;
         }
 
         public IEnumerable<PacchettoDTO> CercaTutti()
@@ -64,7 +100,39 @@ namespace VacanGio.Services
 
         public bool Inserisci(PacchettoDTO entity)
         {
-            throw new NotImplementedException();
+            List<Destinazione_Pacchetto> listapachettidestin = new List<Destinazione_Pacchetto>();
+            if (entity.Nom is null) 
+                return false;
+
+            Pacchetto pac = new Pacchetto()
+            {
+                CodPacchetto = entity.CodPac is not null ? entity.CodPac : Guid.NewGuid().ToString().ToUpper(),
+                Nome=entity.Nom,
+                Prezzo=entity.Pre,
+                Durata=entity.Dur,
+                DataInizio=entity.DataIn,
+                DataFine=entity.DataFi,
+            };
+
+
+            if(entity.Destinazioni is not null && entity.Destinazioni.Count>0)
+
+            foreach (string codice in entity.Destinazioni)
+            {
+                Destinazione? destinazione = _repoDestinazione.GetByCodice(codice);
+                Destinazione_Pacchetto relazioneDestinazionePacch = new Destinazione_Pacchetto();
+                relazioneDestinazionePacch.Pach = pac;
+                relazioneDestinazionePacch.Dest = destinazione;
+                listapachettidestin.Add(relazioneDestinazionePacch);
+                
+            }
+            pac.DesPac = listapachettidestin;
+            
+
+
+            return _repo.Create(pac);
         }
+
+
     }
 }
