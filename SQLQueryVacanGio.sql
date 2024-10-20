@@ -184,6 +184,7 @@ JOIN Destinazione_Pacchetto ON Destinazione.idDestinazione =Destinazione_Pacchet
 SELECT * FROM Destinazione;
 SELECT * FROM PacchettoVacanza;
 SELECT * FROM Destinazione_Pacchetto;
+SELECT * FROM Recensione;
 
 
 

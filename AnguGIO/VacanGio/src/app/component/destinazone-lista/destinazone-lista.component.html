@@ -1,4 +1,4 @@
-<div class="table-responsive">
+<!-- <div class="table-responsive">
     <table class="table table-striped ">
         <thead>
             <tr>
@@ -28,4 +28,31 @@
             </tr>
         </tbody>
     </table>
-</div>
+</div> -->
+<div class="row mt-3">
+    <div class="col-md-6 mb-3" *ngFor="let desti of elencoDestinazioni">
+      <div class="card text-light bg-dark d-flex" style="height: 100%;">
+        <div class="row g-0 h-100">
+          <div class="col-md-4">
+            <img src="{{desti.imgU}}" class="img-fluid" alt="..." style="height: 100%; object-fit: cover;">
+          </div>
+          <div class="col-md-8 d-flex flex-column">
+            <div class="card-body text-light flex-grow-1">
+              <h5 class="card-title text-white">{{ desti.nom }}</h5>
+              <hr class="text-light"> 
+              <p class="card-text">Descrizione: {{desti.desc}}</p>
+              <hr class="text-light"> 
+              <p class="card-text"><small>Paese: {{desti.pae}}</small></p>
+              <hr class="text-light"> 
+              <p><u>Pacchetti</u></p>
+              <div *ngFor="let pacchetto of desti.pacchetti">
+                <p class="card-text"><small>{{ pacchetto }}</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  

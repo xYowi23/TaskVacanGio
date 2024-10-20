@@ -1,4 +1,4 @@
-<div class="table-responsive">
+<!-- <div class="table-responsive">
     <table class="table table-striped">
         <thead>
             <tr>
@@ -9,11 +9,11 @@
                 <th class="">Data Fine</th>
                 <th>Destinazione</th>
                 <th>Recensioni</th>
-                
+
             </tr>
         </thead>
         <tbody>
-            
+
             <tr *ngFor="let pach of elencoPacchetti">
                 <td>{{pach.nom }}</td>
                 <td>{{pach.pre }}</td>
@@ -21,17 +21,66 @@
                 <td>{{pach.dataIn}}</td>
                 <td>{{pach.dataFi}}</td>
                 <td>
-                <ul *ngFor="let destinazione of pach.destinazioni">
-                    <li> {{destinazione}}</li>
-                 </ul>
+                    <ul *ngFor="let destinazione of pach.destinazioni">
+                        <li> {{destinazione}}</li>
+                    </ul>
                 </td>
-                 <td>
+                <td>
                     <ul *ngFor="let recensione of pach.recensioni">
                         <li> {{recensione}}</li>
-                     </ul>
+                    </ul>
                 </td>
-               
+
             </tr>
         </tbody>
     </table>
+</div> -->
+
+<div class="row mt-3 text-center">
+    <div class="col-md-6 " *ngFor="let pach of elencoPacchetti">
+        <div class="card mt-2 bg-secondary rounded-4  " style="width: 24rem;">
+            <div class="card-body rounded-4  ">
+                <h5 class="card-title">{{pach.nom }}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">{{pach.pre }}€</h6>
+                <p class="card-text"> Durata {{pach.dur }} giorni</p>
+                <p class="card-text">Data Inizio: {{pach.dataIn}}</p>
+                <p class="card-text">Data Fine: {{pach.dataFi}}</p>
+
+                <div class="row mt-2 text-center">
+                    <div class="col-md-6">
+                        <div class="dropdown">
+                            <a class="btn bg-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Destinazioni
+                            </a>
+
+                            <ul class="dropdown-menu ">
+                                <li *ngFor="let destinazione of pach.destinazioni">
+                                    <p class="dropdown-item" href="#">{{destinazione}}</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="dropdown">
+                            <a class="btn bg-info dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Recensioni
+                            </a>
+
+                            <ul class="dropdown-menu ">
+                                <li *ngFor="let recensione of pach.recensioni">
+                                    <p class="dropdown-item" href="#">{{recensione}}</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
