@@ -6,8 +6,9 @@
                 <th>Prezzo</th>
                 <th>Durata</th>
                 <th>Data Inizio</th>
-                <th>Data Fine</th>
+                <th class="">Data Fine</th>
                 <th>Destinazione</th>
+                <th>Recensioni</th>
                 
             </tr>
         </thead>
@@ -19,9 +20,16 @@
                 <td>{{pach.dur }}</td>
                 <td>{{pach.dataIn}}</td>
                 <td>{{pach.dataFi}}</td>
+                <td>
                 <ul *ngFor="let destinazione of pach.destinazioni">
                     <li> {{destinazione}}</li>
                  </ul>
+                </td>
+                 <td>
+                    <ul *ngFor="let recensione of pach.recensioni">
+                        <li> {{recensione}}</li>
+                     </ul>
+                </td>
                
             </tr>
         </tbody>

@@ -37,13 +37,14 @@ namespace VacanGio.Repositories
         {
             return _context.Pacchettos.Include(p=>p.DesPac)
                     .ThenInclude(dp=>dp.Dest)
-                
+                    .Include(p => p.recensoni)
+
                  .ToList();
         }
 
         public Pacchetto? GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Pacchettos.Find(id);
         }
 
         public bool Update(Pacchetto entity)

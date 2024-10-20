@@ -3,7 +3,7 @@ using VacanGio.Models;
 
 namespace VacanGio.Context
 {
-    public class VacanGioContext: DbContext
+    public class VacanGioContext : DbContext
     {
         public VacanGioContext(DbContextOptions<VacanGioContext> options) : base(options)
         {
@@ -12,7 +12,7 @@ namespace VacanGio.Context
 
         public DbSet<Destinazione> Destinaziones { get; set; }
         public DbSet<Pacchetto> Pacchettos { get; set; }
-        public DbSet<Recensione> Recenssiones { get; set; }
+        public DbSet<Recensione> Recensiones { get; set; }
         public DbSet<Destinazione_Pacchetto> Destinazione_Pacchettos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -31,4 +31,5 @@ namespace VacanGio.Context
                 .HasForeignKey(dp => dp.PacchettoRiff); //foreign key
 
         }
+    }
 }

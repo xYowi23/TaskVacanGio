@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacanGio.Models
 {
-    
+    [Table("Recensione")]
     public class Recensione
     {
         [Key]
@@ -14,11 +14,14 @@ namespace VacanGio.Models
 
         public int Voto { get; set; }
 
-        public string? Commeto { get; set; }
+        public string? Commento { get; set; }
         public DateOnly? DataRecensione { get; set; }
 
+        
         public int PacchettoRiff { get; set; }
+        [ForeignKey("PacchettoRiff")]
         public Pacchetto? Pach { get; set; }
+
 
 
 

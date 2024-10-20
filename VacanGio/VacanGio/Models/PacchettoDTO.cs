@@ -17,6 +17,8 @@ namespace VacanGio.Models
         public DateOnly? DataFi { get; set; }
 
         public List<string>? Destinazioni { get; set; }
+
+        public List<string>? Recensioni { get; set; }
     }
 
     /*idPacchetto INT PRIMARY KEY IDENTITY(1,1),

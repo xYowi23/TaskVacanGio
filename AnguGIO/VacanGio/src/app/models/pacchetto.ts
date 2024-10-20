@@ -8,6 +8,7 @@ export class Pacchetto {
     destinazioni:string|undefined;  
     dataIn:Date|undefined;
     dataFi:Data|undefined;
+    recensioni:string|undefined;
 
    
 }

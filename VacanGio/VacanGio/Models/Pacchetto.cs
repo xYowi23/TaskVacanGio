@@ -18,8 +18,9 @@ namespace VacanGio.Models
         public DateOnly? DataInizio { get; set; }
         public DateOnly? DataFine { get; set; }
 
-
-        public ICollection<Destinazione_Pacchetto> DesPac { get; set; }= new LinkedList<Destinazione_Pacchetto>();
+       
+        public ICollection<Destinazione_Pacchetto> DesPac { get; set; }= new List<Destinazione_Pacchetto>();
+        public ICollection<Recensione> recensoni { get; set; } = new List<Recensione>();
     }
 
     /*idPacchetto INT PRIMARY KEY IDENTITY(1,1),

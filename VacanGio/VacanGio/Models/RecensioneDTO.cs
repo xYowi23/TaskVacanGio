@@ -14,8 +14,8 @@ namespace VacanGio.Models
         public string? Com { get; set; }
         public DateOnly? DataRe{ get; set; }
 
-        public int PacchettoRiff { get; set; }
-           public Pacchetto? Pach { get; set; }
+
+        public /*PacchettoDTO*/ string? Pach { get; set; }
 
 
 

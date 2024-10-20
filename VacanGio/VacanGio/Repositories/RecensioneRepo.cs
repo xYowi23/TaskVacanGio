@@ -24,17 +24,22 @@ namespace VacanGio.Repositories
 
         public IEnumerable<Recensione> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Recensiones.ToList();
         }
 
         public Recensione? GetById(int id)
         {
-            throw new NotImplementedException();
+          return _context.Recensiones.Find(id);
         }
 
         public bool Update(Recensione entity)
         {
             throw new NotImplementedException();
+        }
+
+        public Recensione? GetByCodice(string codice)
+        {
+            return _context.Recensiones.FirstOrDefault(r => r.CodRecensione == codice);
         }
     }
 }

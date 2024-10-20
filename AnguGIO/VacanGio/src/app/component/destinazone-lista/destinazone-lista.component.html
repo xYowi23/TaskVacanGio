@@ -7,6 +7,7 @@
                 <th>Paese</th>
                 <th>Immagine</th>
                 <th>Paccheti</th>
+              
                 
             </tr>
         </thead>
@@ -17,11 +18,12 @@
                 <td>{{desti.desc }}</td>
                 <td>{{desti.pae }}</td>
                 <td> <img src="{{desti.imgU}}" alt=""></td>
-
-                <ul *ngFor="let pacchetto of desti.pacchetti">
-                   <li> {{pacchetto}}</li>
-                </ul>
-            
+                <td>
+                    <ul *ngFor="let pacchetto of desti.pacchetti">
+                        <li> {{pacchetto}}</li>
+                     </ul>
+                </td>
+               
                
             </tr>
         </tbody>

@@ -28,6 +28,7 @@ namespace VacanGio
             //Services
             builder.Services.AddScoped<DestinazioneService>();
             builder.Services.AddScoped<PacchettoService>();
+            builder.Services.AddScoped<RecensioneService>();
 
 
 

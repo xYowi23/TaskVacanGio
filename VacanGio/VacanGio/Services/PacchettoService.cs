@@ -75,7 +75,12 @@ namespace VacanGio.Services
                         if (desPacchetto.Dest is not null)
                             nomiDestinazioni.Add(desPacchetto.Dest.Nome);
                     }
-
+                List<string> nomiRecensioni = new List<string>();
+                foreach (Recensione recensione in pacchetto.recensoni)
+                {
+                    if (recensione.Commento is not null)
+                        nomiRecensioni.Add(recensione.Commento + " by " +recensione.NomeUtente );
+                }
                 PacchettoDTO temp = new PacchettoDTO()
                 {
                     CodPac = pacchetto.CodPacchetto,
@@ -85,6 +90,8 @@ namespace VacanGio.Services
                     DataIn=pacchetto.DataInizio,
                     DataFi=pacchetto.DataFine,
                     Destinazioni= nomiDestinazioni,
+                    Recensioni=nomiRecensioni,
+
 
                 };
                 risultato.Add(temp);
@@ -132,6 +139,29 @@ namespace VacanGio.Services
 
             return _repo.Create(pac);
         }
+
+        public PacchettoDTO? CercaPerId(int id)
+        {
+            PacchettoDTO? risultato = null;
+
+            Pacchetto? pachet = _repo.GetById(id);
+            if (pachet is not null)
+            {
+                risultato = new PacchettoDTO()
+                {
+                    CodPac = pachet.CodPacchetto,
+                    Nom = pachet.Nome,
+                    Pre = pachet.Prezzo,
+                    Dur = pachet.Durata,
+                    DataIn = pachet.DataInizio,
+                    DataFi = pachet.DataFine,
+
+
+                };
+            }
+            return risultato;
+        }
+
 
 
     }
