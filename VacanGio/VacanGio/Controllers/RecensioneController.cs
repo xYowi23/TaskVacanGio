@@ -2,7 +2,7 @@
 
 namespace VacanGio.Controllers
 {
-    public class Controller : Controller
+    public class RecensioneController : Controller
     {
         public IActionResult Index()
         {

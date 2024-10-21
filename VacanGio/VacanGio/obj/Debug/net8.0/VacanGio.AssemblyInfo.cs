@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VacanGio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dc30f01088623f6a699d4fb24ede24094b24ab4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0683883af5a781493bb6fe40b0b86a3be5359149")]
 [assembly: System.Reflection.AssemblyProductAttribute("VacanGio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VacanGio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
